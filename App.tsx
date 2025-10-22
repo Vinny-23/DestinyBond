@@ -19,7 +19,7 @@ interface MenuItem {
   course: CourseType;
   price: string;
 }
-
+//*Main App Component*//
 const ChefApp: React.FC = () => {
   const [menuItems, setMenuItems] = useState<MenuItem[]>([]);
   const [dishName, setDishName] = useState('');
@@ -56,7 +56,7 @@ const ChefApp: React.FC = () => {
     setPrice('');
     Alert.alert('Success', 'Menu item added successfully!');
   };
-
+//*Function to get color based on course type*//
   const getCourseColor = (course: CourseType) => {
     switch (course) {
       case 'starter':
@@ -69,7 +69,7 @@ const ChefApp: React.FC = () => {
         return '#FF6B6B';
     }
   };
-
+//**Render Form Component*///*Render Menu Component*//
   const renderForm = () => (
     <View style={styles.formContainer}>
       <Text style={styles.sectionTitle}>Add New Menu Item</Text>
@@ -132,7 +132,7 @@ const ChefApp: React.FC = () => {
       </TouchableOpacity>
     </View>
   );
-
+//*Render Menu Component*//
   const renderMenu = () => (
     <View style={styles.menuContainer}>
       <View style={styles.menuHeader}>
@@ -182,7 +182,7 @@ const ChefApp: React.FC = () => {
       )}
     </View>
   );
-
+//*Main Return Statement*//
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
@@ -225,7 +225,7 @@ const ChefApp: React.FC = () => {
     </SafeAreaView>
   );
 };
-
+//*Stylesheet*//
 const styles = StyleSheet.create({
   container: {
     flex: 1,
