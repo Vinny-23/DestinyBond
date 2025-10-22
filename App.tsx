@@ -323,7 +323,7 @@ const styles = StyleSheet.create({
   courseButtonText: {
     fontSize: 14,
     fontWeight: '500',
-    color: '#ffffffff',
+    color: '#000000ff',
   },
   courseButtonTextSelected: {
     color: '#000000ff',
