@@ -186,7 +186,7 @@ const ChefApp: React.FC = () => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.welcomeTitle}> Destiny Bond!!!</Text>
+        <Text style={styles.welcomeTitle}> Christoffel's Menu</Text>
         <Text style={styles.welcomeSubtitle}>
           "Crafting Heavenly Dishes & Menus!"
         </Text>
