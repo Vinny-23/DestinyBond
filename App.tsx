@@ -283,7 +283,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffffff',
+    color: '#000000ff',
     marginBottom: 20,
   },
   input: {
